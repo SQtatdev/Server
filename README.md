@@ -6,6 +6,7 @@
 - While one client interacts with the server, the others wait.  
 
 ✅ Pros:  
+
 ✔ Simple code, easy to understand and debug.  
 ✔ Minimal resource utilization.  
 
@@ -24,6 +25,7 @@ When to use.
 - The server can handle multiple clients at the same time.  
 
 ✅ Pros:  
+
 ✔ Simple implementation.  
 ✔ Supports multiple clients at the same time.  
 
@@ -41,7 +43,8 @@ When to use.
 - Uses asynchronous operations (`await`) without creating threads.  
 - The server processes all clients **simultaneously** without blocking.  
 
-✅ Pros: 
+✅ Pros:   
+
 ✔ Handles thousands of connections efficiently.  
 ✔ Uses fewer resources than streams.  
 
